@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+.profileimage{
+    margin: auto;
+    display: block;
+    align-self: center;
+    border-radius: 50%;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin: 5px;
+}
