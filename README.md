@@ -1,1 +1,14 @@
 # iamkarnashrestha.github.io
+Hi professor, I have created basic homepage that meets the requirement of the lab1. Where I used 
+different html tags such as header, section, nav, list, etc. I have also used favicon too. The link for  validator for html5 is also placed with the anchor tag in the image at the bottom of page inside footer. 
+The page has no errors while validating aswell.
+
+I have hosted the website to the github server as well. I have also implemented some css to place the image to
+good position and i have change the style type of unorderlist list item to none for the navigation links.
+
+It was pretty good experience to practice the coding.
+
+The url to the website is: https://iamkarnashrestha.github.io/
+The url to the github repo is: https://github.com/iamkarnashrestha/iamkarnashrestha.github.io
+
+Thank You

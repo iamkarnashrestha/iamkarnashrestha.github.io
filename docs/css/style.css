@@ -7,10 +7,10 @@ h1{
     align-self: center;
     border-radius: 50%;
 }
-ul{
+nav>ul{
     list-style-type: none;
     display: flex;
 }
-li{
+nav>ul>li{
     margin: 5px;
 }
