@@ -13,7 +13,7 @@ body{
 }
 
 li a:visited{
-    color:rgb(55, 252, 0);
+    color:rgb(166, 17, 4);
 }
 
 a:hover{
@@ -28,7 +28,7 @@ li a{
 }
 
 .classes{
-    background-color: darkgray;
+   
    /* font:1.25em black, cursive;*/
     font-size:1.25em;
     color:black;
@@ -38,4 +38,12 @@ li a{
 .validator img{
     height:50px;
     width: 70px;
+}
+
+dt{
+    color:rgb(4, 62, 62);
+    font-weight: bold;
+}
+h2{
+    color: #20b2aa;
 }
