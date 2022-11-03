@@ -17,3 +17,13 @@ I did the following things for the lab 2 first task;
 - added nested  HTML definition list
 - reversed the ordered list
 -added validator for HTML and CSS 
+- got some issues with referal link of css, but managed to do that later.
+
+I finished the first task at the end of lab class, in Nov 12
+
+
+
+I did following things or the lab 2 second task, recipe
+-did all requirements stated in the lab instructions.
+-did all extra features
+	background image, favicon,pie bullet, wide headings,tight heading background.
