@@ -1,9 +1,8 @@
 I did the following things for the lab 2 first task;
 
-placed all the elements as instructed in the question.
+-placed all the elements as instructed in the question.
 -alligned the name to center for better look.
-each part such as description,classes, favourite movie, moods, 
-fun fact about neighbour, are handled in different section.
+-each part such as description,classes, favourite movie, moods, fun fact about neighbour, are handled in different section.
 -changed the font color of content of description, and funfact using "class element" selector as:
 	.description p, .fun-facts li{
     		color: chocolate;
@@ -12,5 +11,9 @@ fun fact about neighbour, are handled in different section.
 -changed the background color of page
 -changed the color of hyperlink and changed the text decoration  
 -used italic element in the list of funfacts.
--changed font-size,color,font-family using both shorthand and writting whole three line code for those purpose.
-(shorthand is commented in the code) 
+-changed font-size,color,font-family using both shorthand and writting whole three line code for those purpose.(shorthand is commented in the code) 
+-made hyperlinks not underlined by default.
+-made every paragraph start with a drop-caps;
+- added nested  HTML definition list
+- reversed the ordered list
+-added validator for HTML and CSS 
