@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Open Sans',sans-serif;
+}
+
+.logo{
+    grid-area: logo;
+    display: flex;
+    align-items: center;
+    /* background-color:antiquewhite ; */
+}
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'logo nav'
+    'banner banner'
+    'login register'
+    'footer footer';
+    
+}
+.logo,.nav{
+    height: 50px;
+
+}
+
+.nav{
+    grid-area:nav;
+ 
+}
+.banner{
+    grid-area: banner;
+    grid-column: 1/3;
+    background-color: #374777;
+    height: 170px;
+
+}
+
+.loginform{
+    grid-area: login;
+    height: 410px;
+    background-color: #f3f3f3;
+}
+
+.register{
+    grid-area: register;
+    height: 410px;
+    background-color: #f3f3f3;
+}
+.footer{
+    grid-area: footer;
+    height: 25px;
+    background-color: rgb(165, 178, 178);;
+
+}
+.welcometext{
+    font-size:42px;
+    color: white;
+    display: flex;
+    padding-top:1.25em;
+    justify-content: center;
+}
+.logo img{
+
+    height: 40px;
+    width: 40px;
+}
+
+.logo span{
+    font-size: 16pt;
+    top:5pd;
+    
+}
+.nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+.nav>ul>li{
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    color: #000;
+  
+}
+li>a{
+    text-decoration: none;
+}
+
+.advertisment>img{
+    height: 40px;
+}
