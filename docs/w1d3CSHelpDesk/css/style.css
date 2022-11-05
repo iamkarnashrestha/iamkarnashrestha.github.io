@@ -83,7 +83,6 @@ body {
 
 .logo span {
     font-size: 16pt;
-    top: 5pd;
 
 }
 
@@ -156,7 +155,7 @@ section>h4 {
     margin: 0;
     padding: 0;
     font-size: 30pt;
-    font-weight: 600px;
+    font-weight:600;
     color: #333;
 }
 
