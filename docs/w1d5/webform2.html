@@ -36,7 +36,7 @@
                         </li>
                     </ul>
                     <span class="hello-text">Hello!</span>
-                    <form class="d-flex" role="signout">
+                    <form class="d-flex" >
                         <button class="btn-signout" type="submit">Sign Out</button>
                     </form>
                 </div>
@@ -50,17 +50,17 @@
                 <div class="row">
                   <div class="col">
                     <label for="productNumber" class="form-label">Product Number</label>
-                    <input type="text" class="form-control" placeholder="" name="productNumber">
+                    <input type="text" class="form-control" placeholder="" name="productNumber" id="productNumber">
                   </div>
                   <div class="col">
                     <label for="quantityInStock" class="form-label">Quantity in Stock</label>
-                    <input type="number" class="form-control"  name="quantityInStock" value="0">
+                    <input type="number" class="form-control"  name="quantityInStock" value="0" id="qualityInStock">
                   </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control"  name="name">
+                        <input type="text" class="form-control"  name="name" id="name"> 
                       </div>
                     <div class="col">
                       <label for="supplier" class="form-label">Supplier</label>
@@ -79,8 +79,8 @@
                       <input type="text" class="form-control" placeholder="" name="unitPrice">
                     </div>
                     <div class="col">
-                      <label for="date" class="form-label">Date Supplied</label>
-                      <input type="textbox" class="form-control"  name="dateSupplied"  placeholder="yyyy-mm-dd">
+                      <label for="date-supplied" class="form-label">Date Supplied</label>
+                      <input type="text" class="form-control"  name="dateSupplied"  placeholder="yyyy-mm-dd" id="date-supplied">
                       <span class="text-muted">Enter the valid date</span>
                     </div>
                   </div>
