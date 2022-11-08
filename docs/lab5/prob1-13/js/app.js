@@ -1,6 +1,6 @@
 
 //Problem 1
-
+'use strict'
 //Function definition
 function max(x, y) {
     if (x > y)

@@ -1,4 +1,4 @@
-
+'use strict'
 function displayClock(){
 let x = new Date()
 hours = x.getHours( ) % 12;

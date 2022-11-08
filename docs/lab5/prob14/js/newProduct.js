@@ -1,3 +1,4 @@
+'use strict'
 function showInputsToPopBox()
 {
     let productNumber=document.getElementById('productNumber').value;

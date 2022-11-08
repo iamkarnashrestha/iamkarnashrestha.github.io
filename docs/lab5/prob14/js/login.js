@@ -1,3 +1,4 @@
+'use strict'
 //form.addEventListener("submit",showInputsToConsole(),true);
 function showInputsToConsole()
 {   
