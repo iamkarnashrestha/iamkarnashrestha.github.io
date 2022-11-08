@@ -1,6 +1,5 @@
-
-//Problem 1
 'use strict'
+//Problem 1
 //Function definition
 function max(x, y) {
     if (x > y)
@@ -10,7 +9,7 @@ function max(x, y) {
 }
 
 //Function call
-console.log(max(5, 6));
+console.log("The maximum between 5 and 6 is :"+max(5, 6));
 console.log("---------------------------------------------------------");
 
 //Problem 2
@@ -22,7 +21,7 @@ function maxOfThree(x, y, z) {
     else
         return z;
 }
-console.log(maxOfThree(5, 6, 7));
+console.log("The maximum between 5 and 6 is :"+maxOfThree(5, 6, 7));
 console.log("---------------------------------------------------------");
 
 
@@ -35,7 +34,7 @@ function isVowel(c) {
     else
         return false;
 }
-console.log(isVowel("A"));
+console.log("The given letter 'A' is vowel:"+isVowel("A"));
 console.log("---------------------------------------------------------");
 
 
@@ -55,8 +54,8 @@ function multiply(a) {
     return mulResult;
 }
 
-console.log(sum([1, 2, 3, 4]));
-console.log(multiply([1, 2, 3, 4]));
+console.log("The sum of elements of array: "+sum([1, 2, 3, 4]));
+console.log("The multiplication of elements of array:"+ multiply([1, 2, 3, 4])); 
 
 console.log("---------------------------------------------------------");
 
@@ -69,7 +68,7 @@ function reverse(s) {
     }
     return reversed;
 }
-console.log(reverse("String"))
+console.log("The reversed word of the word 'String' is: "+reverse("String"))
 console.log("---------------------------------------------------------");
 
 //Problem 6
@@ -83,7 +82,7 @@ function findLongestWord(w) {
     return longest;
 }
 
-console.log(findLongestWord(["hood", "root", "cup", "football"]));
+console.log("The longest word from array ['hood', root', 'cup', 'football'] is:"+ findLongestWord(["hood", "root", "cup", "football"]));
 console.log("---------------------------------------------------------");
 
 //Problem 7
@@ -98,36 +97,27 @@ function filterLongWords(w, i) {
     }
     return filteredWords;
 }
-console.log(filterLongWords(["hood", "root", "cup", "football"], 3));
+console.log("The filtered longest word from array ['hood', root', 'cup', 'football'] is: "+filterLongWords(["hood", "root", "cup", "football"], 3));
 console.log("---------------------------------------------------------");
 
 
 //Problem 8
 function computeSumOfSquares(n) {
-    let sumOfSquares = 0;
-    for (let i = 0; i < n.length; i++) {
-        sumOfSquares += (n[i] * n[i]);
-    }
-    return sumOfSquares;
+    return n.map(x=>x*x).reduce((x,y)=>x+y,0);
 }
-console.log(computeSumOfSquares([1, 2, 3]));
+console.log("The sum of squares of given elements in array is:"+computeSumOfSquares([1, 2, 3]));
 console.log("---------------------------------------------------------");
 
 //Problem 9
-
 function printOddNUmbersOnly(n) {
-    for (let i = 0; i < n.length; i++) {
-        if (n[i] % 2 != 0) {
-            console.log(n[i]);
-        }
-    }
+    console.log("The oddnumbers in the array: ["+n+"] is:"+ n.filter(x => x%2 != 0) );
 }
 printOddNUmbersOnly([1, 2, 3, 4, 5, 6]);
 console.log("---------------------------------------------------------");
 
 
 //Problem 10
-function computeSumOfSquaresOfEvensOnly(n) {
+function computeSumOfSquaresOfEvensOnly1(n) {
     let sumOfSquaresOfEvens = 0;
     for (let i = 0; i < n.length; i++) {
         if (n[i] % 2 == 0) {
@@ -136,15 +126,19 @@ function computeSumOfSquaresOfEvensOnly(n) {
     }
     return sumOfSquaresOfEvens;
 }
+function computeSumOfSquaresOfEvensOnly(n) {
+    return n.filter(x => x%2 == 0).map(x=>x*x).reduce((x,y)=>x+y,0)
+    return sumOfSquaresOfEvens;
+}
 
-console.log(computeSumOfSquaresOfEvensOnly([1, 2, 3, 4, 5, 6]));
+console.log("The sum of square of even elements from array [1, 2, 3, 4, 5, 6] is:"+ computeSumOfSquaresOfEvensOnly([1, 2, 3, 4, 5, 6]));
 console.log("---------------------------------------------------------");
 
 //Problem 11
 const array1 = [1, 2, 3, 4];
 //the syntax here looks like lamda expression in Java
-console.log(array1.reduce((x, y) => x + y, 0));
-console.log(array1.reduce((x, y) => x * y, 1));
+console.log("The sum of elements of array [1, 2, 3, 4] is:"+ array1.reduce((x, y) => x + y, 0));
+console.log("The product of elements of array [1, 2, 3, 4] is:"+array1.reduce((x, y) => x * y, 1));
 console.log("---------------------------------------------------------");
 
 //Problem12
@@ -163,20 +157,20 @@ function findSecondBiggest(n) {
     }
     return secondBiggest;
 }
-console.log(findSecondBiggest([1, 2, 3, 4, 5]));
+console.log("The second biggest elements of array [1, 2, 3, 4, 5] is: "+findSecondBiggest([1, 2, 3, 4, 5]));
 console.log("---------------------------------------------------------");
 
 //Problem 13
 function printFibo(n,a,b){
-    let fibo="";
+    let fibo=[];
     for (let i = 1; i <= n; i++) {
-    fibo+=","+a;
-    nextTerm = a + b;
+    fibo.push(a);
+    let nextTerm = a + b;
     a = b;
     b = nextTerm;
 }
 return fibo;
 }
-console.log(printFibo(10,0,1));
+console.log("The fibonacci series is: "+printFibo(10,0,1));
 
 console.log("---------------------------------------------------------");

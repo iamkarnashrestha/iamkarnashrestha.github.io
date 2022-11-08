@@ -8,12 +8,22 @@ function showInputsToPopBox()
     let unitPrice=document.getElementById('unitPrice').value;
     let dateSupplied=document.getElementById('dateSupplied').value;
 
-    let message="Product Number: "+productNumber+"\n"+
-    "Quantity in Stock: "+quantityInStock+"\n"+
-    "Product Name: "+name+"\n"+
-    "Supplier: "+supplier+"\n"+
-    "Unit Price: "+unitPrice+"\n"+
-    "DateSupplied: "+dateSupplied+"\n";
+    let message=`
+    Product Number: ${productNumber}
+    Quantity in Stock:${quantityInStock}
+    Product Name:${name}
+    Supplier: ${supplier}
+    Unit Price:${unitPrice}
+    Date Supplied: ${dateSupplied}`;
+
+//alternative solution
+    // let message="Product Number: "+productNumber+"\n"+
+    // "Quantity in Stock: "+quantityInStock+"\n"+
+    // "Product Name: "+name+"\n"+
+    // "Supplier: "+supplier+"\n"+
+    // "Unit Price: "+unitPrice+"\n"+
+    // "DateSupplied: "+dateSupplied+"\n";
+
     alert(message);
   
 }
