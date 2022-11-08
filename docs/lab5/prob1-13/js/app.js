@@ -117,19 +117,21 @@ console.log("---------------------------------------------------------");
 
 
 //Problem 10
-function computeSumOfSquaresOfEvensOnly1(n) {
-    let sumOfSquaresOfEvens = 0;
-    for (let i = 0; i < n.length; i++) {
-        if (n[i] % 2 == 0) {
-            sumOfSquaresOfEvens += (n[i] * n[i]);
-        }
-    }
-    return sumOfSquaresOfEvens;
-}
+
 function computeSumOfSquaresOfEvensOnly(n) {
     return n.filter(x => x%2 == 0).map(x=>x*x).reduce((x,y)=>x+y,0)
     return sumOfSquaresOfEvens;
 }
+//imperative approach
+// function computeSumOfSquaresOfEvensOnly(n) {
+//     let sumOfSquaresOfEvens = 0;
+//     for (let i = 0; i < n.length; i++) {
+//         if (n[i] % 2 == 0) {
+//             sumOfSquaresOfEvens += (n[i] * n[i]);
+//         }
+//     }
+//     return sumOfSquaresOfEvens;
+// }
 
 console.log("The sum of square of even elements from array [1, 2, 3, 4, 5, 6] is:"+ computeSumOfSquaresOfEvensOnly([1, 2, 3, 4, 5, 6]));
 console.log("---------------------------------------------------------");
