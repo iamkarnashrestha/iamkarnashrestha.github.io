@@ -21,7 +21,7 @@
 
 <body>
     <main>
-        <form action="#" onsubmit="return false" id="myForm">
+        <form action="#"  id="myForm" onsubmit="event.preventDefault(); showInputsToConsole();">
             <div class="row form-input">
                 <div class="col-md-12">
 
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="mb-3">
-                        <button type="submit" class="btn btn-primary" onclick="showInputsToConsole()">Submit</button>
+                        <button type="submit" class="btn btn-primary" onclick="">Submit</button>
                     </div>
                 </div>
             </div>
