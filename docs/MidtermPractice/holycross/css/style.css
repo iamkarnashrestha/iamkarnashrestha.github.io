@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar, .register{
+    background-color: #ef662e!important;
+    color: white;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+
+nav ul li{
+    border-left:1px solid white;
+    margin-left: 2em;
+    padding-left: 1em;
+}
+body>footer{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    background-color: aqua;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+   width: 100vw;
+   
+   margin-right: 2em;
+}
+
+footer div.left-footer{
+    width: 20vw; 
+    margin-left: 2em;
+   
+}
+
+
+footer div.right-footer{
+    display: flex;
+    justify-content:flex-end;
+    width: 20vw; 
+    margin-right: 2em;
+}
+
+main{
+    font-size: 0.8em;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+main>div.mainContent{
+    width: 80vw;
+    height: 100vh;
+}
+
+#censusLogo{
+    float:right;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#holyHeaderImage{
+    height: 40vh;
+    width: 80vw;
+}
+.contentBox{
+    display: flex;
+}
+
+.aboutUs{
+    width: 65vw;
+    padding-top: 2em;
+    padding-right:1em;
+}
+
+.contactInfo{
+    width: 35vw;
+    padding-top: 2em;
+    
+}
+
+section>h2{
+    font-size: 13pt
+}
+.row{
+    margin-top: 1.5em;
+}

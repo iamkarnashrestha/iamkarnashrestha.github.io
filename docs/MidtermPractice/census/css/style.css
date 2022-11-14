@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body>footer{
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+    background-color: aqua;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+   width: 100vw;
+   
+   margin-right: 2em;
+}
+
+footer div.left-footer{
+    width: 50vw; 
+    margin-left: 2em;
+   
+}
+
+footer div.right-footer{
+    display: flex;
+    justify-content:flex-end;
+    width: 50vw; 
+    margin-right: 2em;
+    
+    
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+main>div.mainContent{
+    width: 80vw;
+}
+
+#censusLogo{
+    float:right;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+}
