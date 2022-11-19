@@ -34,6 +34,14 @@ window.addEventListener("DOMContentLoaded", () => {
             'radioInOutValue': radioInOutValue
         });
         loadListOfPatient();
+
+        txtPatientId.value="";
+        txtFirstName.value="";
+        txtMiddleName.value="";
+        txtLastName.value="";
+        txtDateOfBirth.value=""
+        txtDepartment.value="";
+        radioInOut.checked=false;
         
     });
 
