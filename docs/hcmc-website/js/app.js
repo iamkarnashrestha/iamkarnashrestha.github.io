@@ -23,7 +23,7 @@ window.addEventListener("DOMContentLoaded", () => {
         const radioInOutValue = radioInOut.value;
 
 
-        // call addNewAccountDataRow
+       
         listOfPatient.push({
             'patientIdValue': patientIdValue,
             'firstNameValue': firstNameValue,
@@ -42,6 +42,8 @@ window.addEventListener("DOMContentLoaded", () => {
         txtDateOfBirth.value=""
         txtDepartment.value="";
         radioInOut.checked=false;
+        chkElderlyPatients.checked=false;
+        chkShowOutPatients.checked=false;
         
     });
 
