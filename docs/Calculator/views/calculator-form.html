@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .formgroup{
+            margin-top:2em;
+            margin-bottom: 2em;
+        }
+        /* form{
+            display: flex;
+            justify-content: space-around;
+        } */
+    </style>
+</head>
+<body>
+    <h1>Calculator-Lab Assignment 13 - W3D6 - WebApp using NodeJS and ExpressFramework</h1>
+    <form action="/add-numbers" method="post">
+        <em>For Division second number wil be numerator</em>
+        <div class="formgroup">
+            <label for="firstNumber">First Number</label>
+            <input type="number" name="firstNumber" id="firstNumber" step="0.1">
+        </div>
+        <div class="formgroup">
+            <label for="secondNumber">Second Number</label>
+            <input type="number" name="secondNumber" id="secondNumber" step="0.1">
+        </div>
+        <div class="formgroup">
+            <label for="operator">Operation</label>
+            <select name="operator" id="operator">
+                <option value="">---Select---</option>
+                <option value="+">Add(+)</option>
+                <option value="-">Subtract(+)</option>
+                <option value="*">Multiply(*)</option>
+                <option value="/">Divide(/)</option>
+            </select>
+        </div>
+        <div class="formgroup">
+            <input type="submit" value="Calculate" style="padding: 1em;">
+        </div>
+        
+    </form>
+    
+</body>
+</html>
